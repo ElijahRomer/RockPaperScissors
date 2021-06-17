@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  width: 75%;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 10px;
+  border:black solid 5px;
+  box-shadow: 10px 10px 10px;
+}
+
+#start {
+  background-color: maroon;
+  padding: 10px;
+  border: black solid 5px;
+}
+
+#start:hover {
+  background-color: red;
+  color:yellow;
+}
